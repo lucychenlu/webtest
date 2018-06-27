@@ -1,0 +1,162 @@
+html{
+    overflow-x: hidden;
+    background:#f0f2f5;
+}
+.clearfix:after{display: block;	clear: both;content: "";visibility:hidden;height:0;}
+.clearfix{zoom : 1;}
+.cfa-logo{
+    float:left;
+    background: url(../images/cfa_logo_110000.png) no-repeat;
+    background-size:60px 60px;
+    margin-left:20px;
+    margin-top:15px;
+    width:60px;
+    height:60px;
+}
+
+.cfa-name{
+    margin-left:15px;
+    float:left;
+    color: white;
+    font-size: 24px;
+}
+
+.user-face{
+    float:left;
+    margin-top:28px;
+    border-radius:100%;
+    width:28px;
+    height:28px;
+}
+
+.user-name{
+    float:left;
+    color:white;
+    font-size:12px;
+    margin-left:10px;
+}
+
+.quit{
+    float:left;
+    color:white;
+    font-size:12px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+.el-header {
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 999;
+    background-color: #34485b;
+    color: #333;
+    line-height: 84px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.el-footer p{
+    /* background-color: #545c64; */
+    color: #555;
+    font-size:13px;
+    margin:0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.el-main {
+    margin-top:144px;
+    background-color: #f0f2f5;
+    color: #333;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*  */
+.el-menu--horizontal>.el-menu-item{
+    font-size:18px;
+}
+.el-menu--horizontal>.el-menu-item.is-active{
+    font-size:20px;
+}
+.my-club-step{
+    background:#fff;
+    margin-bottom:10px;
+}
+.club-title{
+    height:56px;
+    line-height: 56px;
+    font-size:16px;
+    padding:0 20px;
+}
+.status{
+    color:#e66c31;
+    margin-left:35px;
+}
+.status-box{
+    border:1px solid #e6e6e6;
+    padding:10px 20px;
+}
+.status-div .el-progress {
+    width:110px;
+}
+
+.progress{
+    float:left;
+    position: relative;
+    width:106px;
+    height: 20px;
+    border:1px solid #e6e6e6;
+    border-radius: 10px;
+    background:#f7f7f7;
+    overflow: hidden;
+}
+.progress-inner{
+    position: absolute;
+    top:-1px;
+    left:0;
+    height: 20px;
+    background:url(../images/pre-bg.png) no-repeat ;
+}
+.status-div{
+    width:300px;
+    float:left;
+}
+.status-div span{
+    float:left;
+    margin-left:10px;
+    font-size:14px;
+}
+.club-msg{
+    padding:20px;
+    color:#555;
+    font-size:14px;
+}
+.msg-header{
+    color:#555;
+    font-size:14px;
+}
+.club-msg .el-row{
+    padding:5px 0;  
+}
+.msg-title{
+    width:112px;
+    text-align: right;
+    margin-right:20px;
+}
+.my-club-list{
+    background:#fff;
+    padding:0 20px 20px 20px;
+}
+.list-header{
+    height:56px;
+    line-height: 56px;
+    color:#555;
+    font-size:16px;
+}
+.el-table th{
+    background:#efefef
+}
